@@ -2,7 +2,7 @@ $uri = "https://prices.azure.com/api/retail/prices?currencyCode='GBP'"  # option
 $Headers = @{}
 $Items = @()
 $Count = 0
-$estTotal = 327900		# estimated total
+$estTotal = 720000		# estimated total
 Do
 {
 	$pct = [math]::min([Math]::Truncate($Count / $estTotal * 100), 99)
